@@ -1,14 +1,598 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>AcadShip</title>
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <meta name="description" content="" />
-  <link rel="icon" href="favicon.png">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- =======================================================
+  * Template Name: eNno
+  * Template URL: https://bootstrapmade.com/enno-free-simple-bootstrap-template/
+  * Updated: Aug 07 2024 with Bootstrap v5.3.3
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-  <h1>AcadShip</h1>
-  <p>At AcadShip, we are redefining how students prepare for their careers by combining skill-based training with real-world experience from day one. Our platform connects learners with live industry projects and curated internships that mirror the demands of the modern workplace. We don’t just teach — we immerse students in hands-on challenges that sharpen their skills, build confidence, and foster innovation. Whether you're looking to gain practical exposure, strengthen your resume, or take the first step toward your dream role, Acadship is where your journey begins — to Learn. Build. Grow.</p>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.png" alt=""> -->
+        <h1 class="sitename">AcadShip</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="#hero" class="active">Home</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#services">Services</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#about">Get Started</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column justify-content-center" data-aos="fade-up">
+            <h1>Learn by doing. Build with purpose. Grow into your future</h1>
+            <p>We connect students with live industry projects and hands-on internships from day one — so you don’t just learn skills, you apply them in real scenarios that matter.</p>
+            <div class="d-flex">
+              <a href="#about" class="btn-get-started">Get Started</a>
+            </div>
+          </div>
+          <div class="col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-out" data-aos-delay="100">
+            <img src="assets/img/hero-img.png" class="img-fluid animated" alt="">
+          </div>
+        </div>
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- Featured Services Section -->
+    <section id="featured-services" class="featured-services section">
+
+      <div class="container">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="100">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-activity icon"></i></div>
+              <h4><a href="" class="stretched-link">Lorem Ipsum</a></h4>
+              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-bounding-box-circles icon"></i></div>
+              <h4><a href="" class="stretched-link">Sed ut perspici</a></h4>
+              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+            </div>
+          </div><!-- End Service Item -->
+
+          <div class="col-lg-4 d-flex" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-item position-relative">
+              <div class="icon"><i class="bi bi-calendar4-week icon"></i></div>
+              <h4><a href="" class="stretched-link">Magni Dolores</a></h4>
+              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia</p>
+            </div>
+          </div><!-- End Service Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Featured Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span>About Us<br></span>
+        <h2>About</h2>
+        <p>Bridging the gap between learning and doing — one project at a time.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-4">
+          <div class="col-lg-6 position-relative align-self-start" data-aos="fade-up" data-aos-delay="100">
+            <img src="assets/img/about.png" class="img-fluid" alt="About AcadShip">
+            <a href="https://www.youtube.com/watch?v=Y7f98aduVJ8" class="glightbox pulsating-play-btn" title="Watch How AcadShip Works"></a>
+          </div>
+          <div class="col-lg-6 content" data-aos="fade-up" data-aos-delay="200">
+            <h3>Empowering students with real-world experience from day one.</h3>
+            <p class="fst-italic">
+              At AcadShip, we believe students learn best when they’re challenged with real problems, not just theory.
+            </p>
+            <ul>
+              <li><i class="bi bi-check2-all"></i> <span>Work on live industry projects that mirror real workplace challenges.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Get matched with curated internships designed to grow practical skills.</span></li>
+              <li><i class="bi bi-check2-all"></i> <span>Build a portfolio, gain confidence, and take the first step toward your dream career.</span></li>
+            </ul>
+            <p>
+              Whether you’re a student looking to stand out or an educator aiming to enrich your curriculum with industry exposure,
+              AcadShip is your launchpad to a more practical, confident, and impactful future.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /About Section -->
+
+
+    <!-- Stats Section -->
+    <section id="stats" class="stats section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Companies</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Projects</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="1453" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Students</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+          <div class="col-lg-3 col-md-6">
+            <div class="stats-item text-center w-100 h-100">
+              <span data-purecounter-start="0" data-purecounter-end="32" data-purecounter-duration="1" class="purecounter"></span>
+              <p>Certifications</p>
+            </div>
+          </div><!-- End Stats Item -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Stats Section -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>Services</span>
+    <h2>What We Offer</h2>
+    <p>Practical programs and real-world opportunities to help students learn, build, and grow their careers.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-activity"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Live Industry Projects</h3>
+          </a>
+          <p>Work on real-world challenges from companies to build relevant experience and a portfolio that stands out.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-broadcast"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Curated Internships</h3>
+          </a>
+          <p>Get matched with high-impact internships tailored to your skills and interests, and guided by real professionals.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-easel"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Skill-Building Modules</h3>
+          </a>
+          <p>Access structured training in industry-relevant tools and technologies, focused on practical, applied learning.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-bounding-box-circles"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Mentorship & Feedback</h3>
+          </a>
+          <p>Learn directly from industry mentors who provide real-time feedback, guidance, and career advice.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-calendar4-week"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Career Readiness Program</h3>
+          </a>
+          <p>Build your resume, prepare for interviews, and get personalized support to land your next big opportunity.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="service-item position-relative">
+          <div class="icon">
+            <i class="bi bi-chat-square-text"></i>
+          </div>
+          <a href="service-details.html" class="stretched-link">
+            <h3>Collaborative Community</h3>
+          </a>
+          <p>Join a vibrant peer network to collaborate on projects, exchange ideas, and grow together as future leaders.</p>
+        </div>
+      </div><!-- End Service Item -->
+
+    </div>
+
+  </div>
+
+</section><!-- /Services Section -->
+
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials section light-background">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>Testimonials</span>
+    <h2>What Our Community Says</h2>
+    <p>Hear from learners and mentors about how AcadShip has impacted their careers and growth journeys.</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="swiper init-swiper">
+      <script type="application/json" class="swiper-config">
+        {
+          "loop": true,
+          "speed": 600,
+          "autoplay": {
+            "delay": 5000
+          },
+          "slidesPerView": "auto",
+          "pagination": {
+            "el": ".swiper-pagination",
+            "type": "bullets",
+            "clickable": true
+          },
+          "breakpoints": {
+            "320": {
+              "slidesPerView": 1,
+              "spaceBetween": 40
+            },
+            "1200": {
+              "slidesPerView": 3,
+              "spaceBetween": 20
+            }
+          }
+        }
+      </script>
+      <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>AcadShip helped me break into the tech industry by working on real startup projects. I built confidence, gained hands-on experience, and landed an internship that turned into a full-time offer!</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+            <h3>Neha Reddy</h3>
+            <h4>Software Engineering Intern</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>The project-based learning approach at AcadShip is incredibly effective. As a mentor, I get to see students grow rapidly and tackle real challenges with impressive results.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+            <h3>Rohit Mehra</h3>
+            <h4>Industry Mentor, Product Manager</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Before AcadShip, I had academic knowledge but no practical exposure. Now I can confidently say I’ve contributed to real-world apps and worked with teams across domains.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+            <h3>Priyansh Jain</h3>
+            <h4>Final-Year Student, B.Tech CSE</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>Our organization partnered with AcadShip to source interns for a fintech project. The students delivered high-quality work and adapted faster than expected. A win-win for everyone.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+            <h3>Meena Sharma</h3>
+            <h4>Startup Founder</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+        <div class="swiper-slide">
+          <div class="testimonial-item">
+            <p>
+              <i class="bi bi-quote quote-icon-left"></i>
+              <span>The mentorship and personalized feedback I received through AcadShip were unlike anything in a traditional course. It’s not just about learning — it’s about growing with purpose.</span>
+              <i class="bi bi-quote quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
+            <h3>Kriti Bansal</h3>
+            <h4>Data Science Enthusiast</h4>
+          </div>
+        </div><!-- End testimonial item -->
+
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+  </div>
+
+</section><!-- /Testimonials Section -->
+
+
+    <!-- Call To Action Section -->
+    <section id="call-to-action" class="call-to-action section accent-background">
+
+  <div class="container">
+    <div class="row justify-content-center" data-aos="zoom-in" data-aos-delay="100">
+      <div class="col-xl-10">
+        <div class="text-center">
+          <h3>Kickstart Your Career Journey Today</h3>
+          <p>Join AcadShip and gain access to real industry projects, hands-on mentorship, and curated internships — all designed to turn your skills into career opportunities. Don't just learn. Build your future.</p>
+          <a class="cta-btn" href="#contact">Get Started Now</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</section>
+<!-- /Call To Action Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <span>Contact Us</span>
+    <h2>Get In Touch</h2>
+    <p>Have questions, feedback, or looking to collaborate? Reach out to the AcadShip team—we'd love to hear from you!</p>
+  </div><!-- End Section Title -->
+
+  <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+    <div class="row gy-4">
+
+      <div class="col-lg-5">
+
+        <div class="info-wrap">
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="200">
+            <i class="bi bi-geo-alt flex-shrink-0"></i>
+            <div>
+              <h3>Our Office</h3>
+              <p>123 Skill Street, Bangalore, IN 560001</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="300">
+            <i class="bi bi-telephone flex-shrink-0"></i>
+            <div>
+              <h3>Call Us</h3>
+              <p>+91 XXXXX XXXXX</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <div class="info-item d-flex" data-aos="fade-up" data-aos-delay="400">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h3>Email Us</h3>
+              <p>support@acadship.com</p>
+            </div>
+          </div><!-- End Info Item -->
+
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15544.781422000203!2d77.5946!3d12.9716!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1670f3c3782d%3A0xb3b3aa3f3e1a9a6f!2sBangalore!5e0!3m2!1sen!2sin!4v1716912800000!5m2!1sen!2sin" frameborder="0" style="border:0; width: 100%; height: 270px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+      </div>
+
+      <div class="col-lg-7">
+        <form action="forms/contact.php" method="post" class="php-email-form" data-aos="fade-up" data-aos-delay="200">
+          <div class="row gy-4">
+
+            <div class="col-md-6">
+              <label for="name-field" class="pb-2">Your Name</label>
+              <input type="text" name="name" id="name-field" class="form-control" required>
+            </div>
+
+            <div class="col-md-6">
+              <label for="email-field" class="pb-2">Your Email</label>
+              <input type="email" class="form-control" name="email" id="email-field" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="subject-field" class="pb-2">Subject</label>
+              <input type="text" class="form-control" name="subject" id="subject-field" required>
+            </div>
+
+            <div class="col-md-12">
+              <label for="message-field" class="pb-2">Message</label>
+              <textarea class="form-control" name="message" rows="10" id="message-field" required></textarea>
+            </div>
+
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">Your message has been sent. Thank you!</div>
+
+              <button type="submit">Send Message</button>
+            </div>
+
+          </div>
+        </form>
+      </div><!-- End Contact Form -->
+
+    </div>
+
+  </div>
+
+</section>
+<!-- /Contact Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+  <div class="container footer-top">
+    <div class="row gy-4">
+      <div class="col-lg-4 col-md-6 footer-about">
+        <a href="index.html" class="d-flex align-items-center">
+          <span class="sitename">AcadShip</span>
+        </a>
+        <div class="footer-contact pt-3">
+          <p>123 Skill Street</p>
+          <p>Bangalore, IN 560001</p>
+          <p class="mt-3"><strong>Phone:</strong> <span>+91 XXXXX XXXXX</span></p>
+          <p><strong>Email:</strong> <span>support@acadship.com</span></p>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#hero">Home</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#about">About Us</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#services">Services</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-2 col-md-3 footer-links">
+        <h4>Offerings</h4>
+        <ul>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Live Projects</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Internship Programs</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Mentorship</a></li>
+          <li><i class="bi bi-chevron-right"></i> <a href="#">Career Support</a></li>
+        </ul>
+      </div>
+
+      <div class="col-lg-4 col-md-12">
+        <h4>Follow Us</h4>
+        <p>Stay updated on career tips, new opportunities, and inspiring success stories from our community.</p>
+        <div class="social-links d-flex">
+          <a href="#"><i class="bi bi-twitter-x"></i></a>
+          <a href="#"><i class="bi bi-facebook"></i></a>
+          <a href="#"><i class="bi bi-instagram"></i></a>
+          <a href="#"><i class="bi bi-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="container copyright text-center mt-4">
+    <p>© <span>Copyright</span> <strong class="px-1 sitename">AcadShip</strong> <span>All Rights Reserved</span></p>
+    <div class="credits">
+      Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> | Customized by <a href="#">AcadShip Team</a>
+    </div>
+  </div>
+
+</footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>

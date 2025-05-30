@@ -1,1 +1,1 @@
-# AcadShip-website
+# acadship-website
